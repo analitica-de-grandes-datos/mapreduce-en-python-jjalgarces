@@ -18,4 +18,4 @@ if __name__ == '__main__':
         # sorted_list = sorted(dict_from_list.items(), key=lambda x: x[1])
         # complete = key + "," + val
     for elemento in sorted_:
-        print(elemento[0], elemento[1])
+        print(elemento[0], ",", elemento[1])
