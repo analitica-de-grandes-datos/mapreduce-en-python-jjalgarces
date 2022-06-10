@@ -10,12 +10,15 @@ if __name__ == '__main__':
 
         key, val = line.split("\t")
         val = int(val)
+        
 
         dict_from_list[key] = val
 
         sorted_= sorted(dict_from_list.items(), key=operator.itemgetter(1))
-        # keyssss = sorted_.keys()
+        # keys_dict = sorted_.keys()
         # sorted_list = sorted(dict_from_list.items(), key=lambda x: x[1])
         # complete = key + "," + val
+
     for elemento in sorted_:
-        print(elemento[0],",",elemento[1])
+        sys.stdout.write("{},{}\n".format(elemento[0], elemento[1]))
+    # print(sorted_)
