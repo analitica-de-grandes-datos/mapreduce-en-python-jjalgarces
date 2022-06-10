@@ -17,6 +17,5 @@ if __name__ == '__main__':
         # keyssss = sorted_.keys()
         # sorted_list = sorted(dict_from_list.items(), key=lambda x: x[1])
         # complete = key + "," + val
-
     for elemento in sorted_:
-        print(elemento)
+        print(elemento[0], elemento[1])
