@@ -14,7 +14,9 @@ if __name__ == '__main__':
         dict_from_list[key] = val
 
         sorted_= sorted(dict_from_list.items(), key=operator.itemgetter(1))
-        
+        # keyssss = sorted_.keys()
         # sorted_list = sorted(dict_from_list.items(), key=lambda x: x[1])
         # complete = key + "," + val
-    print(sorted_)
+
+    for elemento in sorted_:
+        print(elemento)
