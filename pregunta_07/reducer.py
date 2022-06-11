@@ -46,4 +46,4 @@ if __name__ == '__main__':
         sorted_= sorted(Lista_7, key=lambda reg: (reg[0], reg[2]))
 
     for elemento in sorted_:
-        sys.stdout.write("{} {} {}\n".format(elemento[0], elemento[1], elemento[2]))
+        sys.stdout.write("{}  {}  {}\n".format(elemento[0], elemento[1], elemento[2]))
