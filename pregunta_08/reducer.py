@@ -20,4 +20,4 @@ if __name__ == '__main__':
             result[Col1] = [Col3]
 
     for key, valor in result.items():
-        print(key, float(sum(valor)), sum(valor)/len(valor))
+        sys.stdout.write("{} {} {}\n".format(key, float(sum(valor)), sum(valor)/len(valor)))
