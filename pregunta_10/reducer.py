@@ -24,4 +24,4 @@ if __name__ == '__main__':
                 result[i] = [Col1]
 
     for key, valor in result.items():
-        sys.stdout.write("{}\t{}\t\n".format(key, valor))
+        sys.stdout.write("{}\t{}\n".format(key, valor))
