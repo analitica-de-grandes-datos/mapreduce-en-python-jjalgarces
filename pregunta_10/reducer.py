@@ -27,4 +27,7 @@ if __name__ == '__main__':
     # print(result.values())
 
     for key, valor in result.items():
+        # res = sorted(valor, key = int)
+        valor = ",".join(map(str, key))
+        # print (key, valor)
         sys.stdout.write("{}\t{}\n".format(key, valor))
