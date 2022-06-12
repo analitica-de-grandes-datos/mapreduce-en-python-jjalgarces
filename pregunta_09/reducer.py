@@ -20,3 +20,4 @@ if __name__ == '__main__':
 
         sorted_= sorted(Lista_9, key=lambda reg: (reg[2]))
     sort_req = sorted_[:6]
+    print(sort_req)
