@@ -3,7 +3,6 @@
 #
 import sys
 
-
 if __name__ == '__main__':
 
     result = {}
@@ -23,11 +22,26 @@ if __name__ == '__main__':
             else:
                 result[i] = [Col1]
 
-    # print(result)
-    # print(result.values()
+        sorted_= sorted(result.items(), key=lambda x: x[0])
+        list_of_tuples_dict = dict(sorted_)
 
-    for key, valor in result.items():
-        res = sorted(valor, key = int)
-        valor = ",".join(map(str, res))
-        # print (key, valor)
+    # print(list_of_tuples_dict)
+    # print(result.values())
+
+    # print(result.keys())
+
+
+    for key, valor in list_of_tuples_dict.items():
+        # print(key, valor)
+        elCorch = sorted(valor, key = int)
+        valor = ",".join(map(str, elCorch))
+    #     # print (key, valor)
         sys.stdout.write("{}\t{}\n".format(key, valor))
+
+        # print(f"{key}{valor}")
+        # print(", ".join(valor))
+        # x = key, "#".join(valor)
+        # print(key.join(valor))
+        # sys.stdout.write("{}\t{}\n".format(key, valor))
+
+        
