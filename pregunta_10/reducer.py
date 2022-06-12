@@ -23,5 +23,8 @@ if __name__ == '__main__':
             else:
                 result[i] = [Col1]
 
+    # print(result)
+    # print(result.values())
+
     for key, valor in result.items():
         sys.stdout.write("{}\t{}\n".format(key, valor))
