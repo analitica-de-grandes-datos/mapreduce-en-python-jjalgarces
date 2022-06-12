@@ -24,10 +24,10 @@ if __name__ == '__main__':
                 result[i] = [Col1]
 
     # print(result)
-    # print(result.values())
+    # print(result.values()
 
     for key, valor in result.items():
-        # res = sorted(valor, key = int)
-        valor = ",".join(map(str, key))
+        res = sorted(valor, key = int)
+        valor = ",".join(map(str, res))
         # print (key, valor)
         sys.stdout.write("{}\t{}\n".format(key, valor))
