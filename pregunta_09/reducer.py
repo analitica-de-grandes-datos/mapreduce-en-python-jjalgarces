@@ -20,4 +20,5 @@ if __name__ == '__main__':
 
         sorted_= sorted(Lista_9, key=lambda reg: (reg[2]))
     sort_req = sorted_[:6]
-    sys.stdout.write("{}\n{}\n{}\n{}\n{}\n{}\n".format(sort_req[0], sort_req[1], sort_req[2], sort_req[3], sort_req[4], sort_req[5]))
+    for elemento in sort_req:
+        sys.stdout.write("{}   {}   {}\n".format(elemento[0], elemento[1], elemento[2]))
