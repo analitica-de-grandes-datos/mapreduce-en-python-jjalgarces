@@ -14,11 +14,10 @@ for line in sys.stdin:
 
   col = clean.split()
 
-  
 
   col_1 = col[0]
+  col_2 = col[1]
   col_3 = col[2]
 
-# escribe al flujo estandar de salida
 
-  sys.stdout.write("{} {}\t\n".format(col_1, col_3))
+  sys.stdout.write("{}\t{}\n".format(col_1, col_3))
